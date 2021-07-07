@@ -70,6 +70,8 @@ Python >= 3.6.0 required with all [requirements.txt](https://github.com/ultralyt
 $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt
+# If NVIDIA GeForce RTX 3090 and CUDA 11.3, run:
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 torchtext==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 </details>
 
